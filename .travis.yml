@@ -6,11 +6,11 @@ after_script:
   - gitbook build
   - cd ./_book
   - git init
-  - git config user.name "${wangshengying}"
-  - git config user.email "${1600700160@qq.com}"
+  - git config user.name "${USER_NAME}"
+  - git config user.email "${USER_EMAIL}"
   - git add .
   - git commit -m "publish gitbook"
-  - git push --force --quiet "https://${c25c9f5fd2e00438868183a50dcb1a7a4766ec2d}@${github.com/wangshengying/communication}" master:${gh-pages}
+  - git push --force --quiet "https://${ACC_TOKEN}@${GH_REF}" master:${BRANCH}
 
 branches:
   only:
