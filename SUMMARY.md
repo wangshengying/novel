@@ -1,2 +1,3 @@
 - [简介](README.md)
 - [雪山飞狐](one.md)
+- [连城诀](two.md)
